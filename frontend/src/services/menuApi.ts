@@ -7,3 +7,11 @@ export const fetchMenuItems = async (): Promise<MenuItem[]> => {
   if (!res.ok) throw new Error('Failed to fetch menu');
   return res.json();
 };
+
+
+
+export const fetchItemsByCategory = async (category: string): Promise<MenuItem[]> => {
+  const res = await fetch(`${BASE_URL}/api/menu/filter?category=${category}`, {});
+  if (!res.ok) throw new Error('Failed to fetch menu items');
+  return res.json();
+};
