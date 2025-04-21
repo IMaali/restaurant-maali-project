@@ -15,3 +15,6 @@ export const fetchItemsByCategory = async (category: string): Promise<MenuItem[]
   if (!res.ok) throw new Error('Failed to fetch menu items');
   return res.json();
 };
+
+
+

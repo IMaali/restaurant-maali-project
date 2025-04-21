@@ -1,3 +1,9 @@
+import FoodMap from "@/components/FoodMap";
+
 export default function MapPage() {
-    return <div>Map Page</div>;
+    return <div>
+
+<FoodMap />
+    
+    </div>;
   }

@@ -32,7 +32,7 @@ VALUES
 
 (57, 'dragon roll', 'Eel and cucumber inside, topped with avocado and unagi sauce.', 510, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3p5W8stdd73FLPH1J3hOZTVNTh7Bgj0JNJA&s', 70, 'Sushi', 43.6532, -79.3832),
 
-(58, 'yakisoba', 'Stir-fried noodles with vegetables, chicken, and yakisoba sauce.', 370, 'https://www.jocooks.com/wp-content/uploads/2021/06/yakisoba-1-11-500x500.jpg', 460, 'Orders', 40.7128, -74.0060),
+(58, 'yakisoba', 'Stir-fried noodles with vegetables, chicken, and yakisoba sauce.', 370, 'https://www.jocooks.com/wp-content/uploads/2021/06/yakisoba-1-11-500x500.jpg', 460, 'Breakfast', 40.7128, -74.0060),
 
 (59, 'ramen classic', 'Tonkotsu ramen with pork slices, egg, and scallions.', 600, 'https://images.immediate.co.uk/production/volatile/sites/30/2024/02/Classic-chicken-ramen-e1f9a1f.jpg', 510, 'Soups', 41.9028, 12.4964),
 
@@ -44,7 +44,7 @@ VALUES
 
 (63, 'chicken pho', 'Vietnamese noodle soup with chicken, herbs, and bean sprouts.', 430, 'https://www.servedfromscratch.com/wp-content/uploads/2014/12/Crock-Pot-Chicken-Pho-18-2.jpg', 340, 'Soups', 10.7626, 106.6602),
 
-(64, 'veggie wrap', 'Whole wheat tortilla filled with grilled vegetables and hummus.', 290, 'https://tastesbetterfromscratch.com/wp-content/uploads/2014/04/Veggie-Wrap-2.jpg', 280, 'Orders', 52.5200, 13.4050),
+(64, 'veggie wrap', 'Whole wheat tortilla filled with grilled vegetables and hummus.', 290, 'https://tastesbetterfromscratch.com/wp-content/uploads/2014/04/Veggie-Wrap-2.jpg', 280, 'Breakfast', 52.5200, 13.4050),
 
 (65, 'espresso shot', 'Rich and bold single shot of freshly brewed espresso.', 150, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsCBmgWEmiPcEx452zMtGuT0LWyx2IA0FRQ&s', 5, 'Drinks', 59.3293, 18.0686),
 
