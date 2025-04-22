@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { useEffect, useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 import { fetchItemsByCategory, fetchMenuItems } from "../services/menuApi";
@@ -115,6 +116,10 @@ export default function HomePage({ category, setCategory }: HomePageProps) {
   }
   return (
     <>
+      <Head>
+        <title>Restaurant</title>
+        <link rel="icon" href="/new-favicon.ico" />
+      </Head>
       <div className="px-15 max-w-screen-xl mx-auto">
         {/* Categories Cards */}
         <div className="text-black font-normal text-[30px] mb-1">

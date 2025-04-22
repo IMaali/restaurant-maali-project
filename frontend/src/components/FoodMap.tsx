@@ -50,6 +50,8 @@ const FoodMap = () => {
       center: [46.6753, 24.7136],
       zoom: 10.5,
     });
+
+    // Add markers and popups
     foodItems.forEach((item, index) => {
       const popupId = `popup-btn-${index}`;
 
@@ -90,10 +92,8 @@ const FoodMap = () => {
 
     return () => map.remove();
   }, [router]);
-    
 
   return <div ref={mapContainerRef} className="w-full h-screen text-black" />;
 };
 
 export default FoodMap;
-
