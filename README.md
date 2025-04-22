@@ -1,4 +1,4 @@
-# restaurant-maali-project
+# Restaurant project
 
 
  # Full-Stack Application: React + Spring Boot + PostgreSQL + Docker
@@ -13,7 +13,7 @@ This project is a complete full-stack web application built using:
 
  DevOps: Docker & Docker Compose
 
-
+-----------------------------------------
  # Docker Compose Setup
 
  Run the Full Application
@@ -30,6 +30,6 @@ Launch the Spring Boot API on http://localhost:8080
 
 Launch PostgreSQL on port 5432
 
+-----------------------------------------
 
-
-# For questions, suggestions, or contributions, feel free to contact with me 
+For questions, suggestions, or contributions, feel free to contact with me 
