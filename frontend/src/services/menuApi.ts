@@ -18,5 +18,20 @@ export const fetchItemsByCategory = async (category: string): Promise<MenuItem[]
 
 
 
+export const fetchItemsByName = async (name: string): Promise<MenuItem[]> => {
+  const res = await fetch(`${BASE_URL}/api/menu/filter?name=${name}`, {});
+  if (!res.ok) throw new Error('Failed to fetch menu items');
+  return res.json();
+};
+
+
+
+export const fetchItemsByDescrip = async (description: string): Promise<MenuItem[]> => {
+  const res = await fetch(`${BASE_URL}/api/menu/filter?description=${description}`, {});
+  if (!res.ok) throw new Error('Failed to fetch menu items');
+  return res.json();
+};
+
+
 
 

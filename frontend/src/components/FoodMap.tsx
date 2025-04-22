@@ -92,7 +92,6 @@ const FoodMap = () => {
   }, [router]);
     
 
-
   return <div ref={mapContainerRef} className="w-full h-screen text-black" />;
 };
 

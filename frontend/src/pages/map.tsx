@@ -6,6 +6,5 @@ export default function MapPage() {
 <div className="w-full h-[100vh]">
 <FoodMap />
 </div>
-    
     </div>;
   }

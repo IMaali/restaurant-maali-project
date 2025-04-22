@@ -1,5 +1,4 @@
 'use client';
-
 import { useState, useEffect, useRef } from "react";
 type FilterSearchBarProps = {
   selectedCategory: string;
@@ -15,7 +14,6 @@ export default function FilterSearchBar({
 
   const filteredCategories = ["Drinks", "Breakfast", "Soups", "Sushi"];
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
