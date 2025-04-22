@@ -14,8 +14,8 @@ export default function Header({ category, setCategory }: HeaderProps) {
   return (
     <>
       <div className="w-[95%]">
-        <header className="bg-gradient-to-r from-black to-gray-900 text-white rounded-br-3xl flex items-center justify-between px-4">
-          <div className="max-w-6xl ml-36 mb-10">
+      <header className="bg-cover bg-center text-white rounded-br-3xl flex items-center justify-between px-4" style={{ backgroundImage: "url('/Group.png')" }}>
+      <div className="max-w-6xl ml-36 mb-10">
             <nav className="flex space-x-4">
               <Link
                 href="/"

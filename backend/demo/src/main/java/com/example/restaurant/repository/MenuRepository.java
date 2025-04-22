@@ -12,6 +12,8 @@ public interface MenuRepository extends JpaRepository<Menu, Long> {
 
     List<Menu> findByNameContainingIgnoreCase(String name, Sort sort);
 
-    List<Menu> findByDescription(String description , Sort sort);
+    List<Menu> findByDescriptionContainingIgnoreCase(String description, Sort sort);
+
+
 
 }
