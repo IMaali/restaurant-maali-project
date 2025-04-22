@@ -31,14 +31,23 @@ public class MenuController {
     @GetMapping("/filter")
     public List<Menu> filterAndSort(
             @RequestParam String category,
+            @RequestParam(required = false) String name,
+            @RequestParam(required = false) String description,
             @RequestParam(defaultValue = "asc") String direction) {
         
         Sort sort = direction.equalsIgnoreCase("asc") ? Sort.by("category").ascending() : Sort.by("category").descending();
-        
+        if (category != null) {
+            return menuRepository.findByCategory(category, sort);
+        }
+        if (name != null) {
+            return menuRepository.findByNameContainingIgnoreCase(name, sort);
+        }
+        if (description != null ) {
+            return menuRepository.findByDescription(description, sort);
+        }
         return menuRepository.findByCategory(category, sort);
     }
 
-  
 
     
 }

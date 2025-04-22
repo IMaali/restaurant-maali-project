@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className="min-h-screen bg-[#F5F6F8]">
       <Header category={category} setCategory={setCategory} />
-      <main className="p-6">
+      <main>
         <Component {...pageProps} category={category} setCategory={setCategory} />
       </main>
     </div>

@@ -252,6 +252,7 @@ export default function HomePage({ category, setCategory }: HomePageProps) {
                   <p className="text-gray-400 mb-2">
                     {selectedItem.description || "No description available."}
                   </p>
+                  
                   <img
                     src={selectedItem.image}
                     alt={selectedItem.name}

@@ -9,4 +9,9 @@ import java.util.List;
 
 public interface MenuRepository extends JpaRepository<Menu, Long> {
     List<Menu> findByCategory(String category , Sort sort);
+
+    List<Menu> findByNameContainingIgnoreCase(String name, Sort sort);
+
+    List<Menu> findByDescription(String description , Sort sort);
+
 }
