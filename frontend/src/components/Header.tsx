@@ -36,9 +36,9 @@ export default function Header({ category, setCategory }: HeaderProps) {
                 Home
               </Link>
               <Link
-                href="/map"
+                href="/Map"
                 className={`px-4 py-7 font-medium rounded-b-xl ${
-                  isActive("/map") ? "bg-pink-200 text-black border-t-4" : "text-white"
+                  isActive("/Map") ? "bg-pink-200 text-black border-t-4" : "text-white"
                 }`}
               >
                 Map
