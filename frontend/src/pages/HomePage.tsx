@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import { useEffect, useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 import { fetchItemsByCategory, fetchMenuItems } from "../services/menuApi";
