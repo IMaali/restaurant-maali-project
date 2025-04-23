@@ -4,6 +4,8 @@ import FilterSearchBar from "@/components/FilterSearchBar";
 import SearchBar from "@/components/SearchBar";
 import { MenuItem } from "@/types/menu";
 import { useState } from "react";
+import Head from "next/head";
+
 
 type HeaderProps = {
   category: string;
@@ -20,6 +22,11 @@ export default function Header({ category, setCategory }: HeaderProps) {
 
   return (
     <>
+
+<Head>
+        <title>Restaurant</title>
+        <link rel="icon" href="/Mask.svg" />
+      </Head>
       <div className="w-[95%]">
         <header
           className="bg-cover bg-center text-white rounded-br-3xl flex items-center justify-between px-4"
